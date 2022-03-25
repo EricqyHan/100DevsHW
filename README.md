@@ -402,8 +402,11 @@ Starter Questions:
 
 ## Class 22
 
-| Item  |                                                                                           Link                                                                                            |
-| ----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Watch |                                         [Programming with Mosh- OOP](https://www.youtube.com/watch?v=PFmuCDHHpwk&ab_channel=ProgrammingwithMosh)                                          |
-| Watch |                                          [Learn Code Academy - Github](https://www.youtube.com/watch?v=0fKg7e37bQE&ab_channel=LearnCode.academy)                                          |
-| Read  | [Microsoft - Github](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/?ocid=aid3038567_RequestedResources_ThankYou_DevComm&eventId=LearnwithLeonstream_ggNxpTZxIzb_) |
+| Item      |                                                                                           Link                                                                                            |
+| --------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Watch     |                                         [Programming with Mosh- OOP](https://www.youtube.com/watch?v=PFmuCDHHpwk&ab_channel=ProgrammingwithMosh)                                          |
+| Watch     |                                          [Learn Code Academy - Github](https://www.youtube.com/watch?v=0fKg7e37bQE&ab_channel=LearnCode.academy)                                          |
+| Read      | [Microsoft - Github](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/?ocid=aid3038567_RequestedResources_ThankYou_DevComm&eventId=LearnwithLeonstream_ggNxpTZxIzb_) |
+| Push Work |                                                             [JavaScript Info - Chapter on Objects](https://javascript.info/)                                                              |
+| Push Work |                                    [Pillars of OOP](https://medium.com/@hamzzza.ahmed95/four-pillars-of-object-oriented-programming-oop-e8d7822aa219)                                     |
+| Push Work |                                                           [100 Devs Calculator](https://github.com/leonnoel/100devs-calculator)                                                           |
