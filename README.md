@@ -410,3 +410,30 @@ Starter Questions:
 | Push Work |                                                             [JavaScript Info - Chapter on Objects](https://javascript.info/)                                                              |
 | Push Work |                                    [Pillars of OOP](https://medium.com/@hamzzza.ahmed95/four-pillars-of-object-oriented-programming-oop-e8d7822aa219)                                     |
 | Push Work |                                                           [100 Devs Calculator](https://github.com/leonnoel/100devs-calculator)                                                           |
+
+## Class 23
+
+| Item       |                                  Link                                   |
+| ---------- | :---------------------------------------------------------------------: |
+| Read       |          [JavaScript Info - Objects](https://javascript.info/)          |
+| Calculator | [JavaScript Calculator](https://github.com/leonnoel/100devs-calculator) |
+
+## Class 24 - Git
+
+| Item       |                                  Link                                   |
+| ---------- | :---------------------------------------------------------------------: |
+| Read       |          [JavaScript Info - Objects](https://javascript.info/)          |
+| Calculator | [JavaScript Calculator](https://github.com/leonnoel/100devs-calculator) |
+
+## Class 25 - Resume Review
+
+## Class 26 - API
+
+| Item       |                                               Link                                                |
+| ---------- | :-----------------------------------------------------------------------------------------------: |
+| DO         |                    Make the cocktailDB api work with spaces between the names!                    |
+| Calculator |                   [Calculator](https://github.com/leonnoel/100devs-calculator)                    |
+| Calculator | [Find 3 APIs & build 3 simple apps using those APIs ](https://github.com/public-apis/public-apis) |
+| Code Wars  |                                      Code Wars - Do a 7 Kyu                                       |
+| Do - Push  |            Make a rotating list of drinks (an automatic carousel) from the cocktailDB             |
+| Anki       |                    Make the NASA API handle all the data types including video                    |
