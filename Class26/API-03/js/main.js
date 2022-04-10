@@ -65,19 +65,20 @@ function bitcoin() {
     .then((res) => res.json()) // parse response as JSON
     .then((data) => {
       //   formatter to turn bitcoin float to USD currency
-      const bitcoinFormatter = new Intl.NumberFormat("en-US", {
-        style: "currency",
-        currency: "USD",
-        minimumFractionDigits: 4,
-      });
+      // const bitcoinFormatter = new Intl.NumberFormat("en-US", {
+      //   style: "currency",
+      //   currency: "USD",
+      //   minimumFractionDigits: 4,
+      // });
       let totalLoan = document.querySelector(".amountBorrowed").innerText;
       let dailyCalculation =
         document.querySelector(".dailyCalculation").innerText;
-      document.querySelector(".bitcoinAmountFromTotaLoan").innerText =
-        parseInt(totalLoan) / bitcoinFormatter.format(data.bpi.USD.rate_float);
-      document.querySelector(".bitcoinAmountFromMonthlyInterest").innerText =
-        parseInt(dailyCalculation);
-      bitcoinFormatter.format(data.bpi.USD.rate_float);
+      document.querySelector(".bitcoinAmountFromTotaLoan").innerText = (
+        parseInt(totalLoan) / data.bpi.USD.rate_float
+      ).toFixed(4);
+      document.querySelector(".bitcoinAmountFromMonthlyInterest").innerText = (
+        dailyCalculation / data.bpi.USD.rate_float
+      ).toFixed(4);
       //  document.querySelector(".priceTime").innerText = data.time.updated;
     })
     .catch((err) => {
