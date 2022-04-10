@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+<head>
+   <meta charset="utf-8">
+   <meta name="description" content="This is where your description goes">
+   <meta name="keywords" content="one, two, three">
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
+   <title>NASA API</title>
 
-		<h1>Which date?</h1>
-		<input type="text" name="" value="">
-		<button type="button" name="button">Get Picture</button>
+   <!-- external CSS link -->
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
 
-		<h2>Name</h2>
-		<img src="" alt="">
-		<h3>Description</h3>
+<body>
 
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+   <h1>Picture date - <span class="pictureDate"></span></h1>
+   <p>Enter date in "year-month-date" like above.</p>
+   <input type="text" name="" value="">
+   <button type="button" name="button">Get Picture</button>
+
+   <h2>Media Type: <span class="mediaType"></span></h2>
+   <img src="" alt="" width="500px" height="500px" class="hidden">
+   <iframe src="" width="500px" height="500px" frameborder="0" class="hidden" autoplay></iframe>
+   <h3>Description: <span class="description"></span></h3>
+
+   <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>
