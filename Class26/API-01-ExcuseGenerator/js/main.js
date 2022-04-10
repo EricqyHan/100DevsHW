@@ -8,6 +8,7 @@ function getExcuse() {
     .then((data) => {
       console.log(data[0]);
       console.log(data[0].excuse);
+      document.querySelector(".number").innerText = data[0].id;
       document.querySelector("span").innerText = data[0].excuse;
     })
     .catch((err) => {
