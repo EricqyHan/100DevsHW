@@ -1,0 +1,22 @@
+{
+  "name": "bradtraversy",
+  "version": "1.0.0",
+  "description": "Node Crash Course",
+  "main": "lesson01.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "Eric",
+    "H"
+  ],
+  "author": "Eric H",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
